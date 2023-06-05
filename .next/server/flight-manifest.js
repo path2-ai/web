@@ -208,32 +208,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./components/copyright-linear-banner.tsx": {
-      "": {
-        "id": "(sc_client)/./components/copyright-linear-banner.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./components/copyright-linear-banner.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
-      "CopyrightLinearBanner": {
-        "id": "(sc_client)/./components/copyright-linear-banner.tsx",
-        "name": "CopyrightLinearBanner",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./components/header.tsx": {
       "": {
         "id": "(sc_client)/./components/header.tsx",
@@ -599,32 +573,6 @@ self.__RSC_MANIFEST={
     "AnalyticsWrapper": {
       "id": "(app-client)/./components/analytics.tsx",
       "name": "AnalyticsWrapper",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    }
-  },
-  "/Users/jhoetter/repos/web/components/copyright-linear-banner.tsx": {
-    "": {
-      "id": "(app-client)/./components/copyright-linear-banner.tsx",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./components/copyright-linear-banner.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "CopyrightLinearBanner": {
-      "id": "(app-client)/./components/copyright-linear-banner.tsx",
-      "name": "CopyrightLinearBanner",
       "chunks": [
         "app/layout:app/layout"
       ],
