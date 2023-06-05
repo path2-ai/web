@@ -1,4 +1,4 @@
-export function Hero() {
+export function Benefits() {
   return (
     <div className="flex flex-col">
       <div className="flex flex-col space-y-10 py-20 max-w-6xl mx-auto">
