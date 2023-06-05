@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { Button } from "./button";
 import { Container } from "./container";
 import { HamburgerIcon } from "./icons/hamburger";
 import { Logo } from "./icons/logo";
@@ -85,7 +84,6 @@ export const Header = () => {
           <Link className="mr-6 text-sm" href="#">
             Log in
           </Link>
-          <Button href="#">Sign up</Button>
         </div>
 
         <button
