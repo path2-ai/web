@@ -27,7 +27,7 @@ module.exports = {
       background: "#000212",
       grey: "#858699",
       "grey-dark": "#222326",
-      "primary-text": "#b4bcd0",
+      "primary-text": "#4b432f",
     },
     spacing: {
       0: "0",

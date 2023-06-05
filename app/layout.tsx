@@ -1,5 +1,4 @@
 import { AnalyticsWrapper } from "../components/analytics";
-import { Container } from "../components/container";
 import { Footer } from "../components/footer";
 import { Header } from "../components/header";
 import "../styles/globals.css";
@@ -16,7 +15,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <body>
         <div>
           <Header />
-          <main className="bg-page-gradient pt-navigation-height">
+          <main className="pt-navigation-height">
             {children}
           </main>
           <Footer />

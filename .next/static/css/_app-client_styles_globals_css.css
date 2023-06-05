@@ -382,8 +382,6 @@ video {
   }
 
   html {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 2 18 / var(--tw-bg-opacity));
   font-family: "SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu, Cantarell,"Open Sans","Helvetica Neue",sans-serif;
   --tw-text-opacity: 1;
   color: rgb(247 248 248 / var(--tw-text-opacity));
@@ -563,9 +561,6 @@ video {
 .bottom-\[20rem\] {
   bottom: 20rem;
 }
-.bottom-\[4rem\] {
-  bottom: 4rem;
-}
 .left-0 {
   left: 0;
 }
@@ -583,9 +578,6 @@ video {
 }
 .right-0 {
   right: 0;
-}
-.right-\[4rem\] {
-  right: 4rem;
 }
 .top-0 {
   top: 0;
@@ -611,9 +603,6 @@ video {
 .z-20 {
   z-index: 20;
 }
-.z-\[-1\] {
-  z-index: -1;
-}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -629,10 +618,6 @@ video {
 .my-7 {
   margin-top: 2.8rem;
   margin-bottom: 2.8rem;
-}
-.my-\[-12\.8rem\] {
-  margin-top: -12.8rem;
-  margin-bottom: -12.8rem;
 }
 .mb-11 {
   margin-bottom: 4.4rem;
@@ -663,9 +648,6 @@ video {
 }
 .ml-6 {
   margin-left: 2.4rem;
-}
-.ml-8 {
-  margin-left: 3.2rem;
 }
 .ml-auto {
   margin-left: auto;
@@ -739,9 +721,6 @@ video {
 .h-\[4rem\] {
   height: 4rem;
 }
-.h-\[60rem\] {
-  height: 60rem;
-}
 .h-\[6rem\] {
   height: 6rem;
 }
@@ -799,9 +778,6 @@ video {
 .w-\[200\%\] {
   width: 200%;
 }
-.w-\[65rem\] {
-  width: 65rem;
-}
 .w-\[78rem\] {
   width: 78rem;
 }
@@ -834,9 +810,6 @@ video {
 }
 .max-w-\[90\%\] {
   max-width: 90%;
-}
-.max-w-\[95\%\] {
-  max-width: 95%;
 }
 .max-w-full {
   max-width: 100%;
@@ -1064,11 +1037,6 @@ video {
   margin-right: calc(1.6rem * var(--tw-space-x-reverse));
   margin-left: calc(1.6rem * calc(1 - var(--tw-space-x-reverse)));
 }
-.space-y-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.2rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.2rem * var(--tw-space-y-reverse));
-}
 .overflow-auto {
   overflow: auto;
 }
@@ -1095,9 +1063,6 @@ video {
 }
 .rounded-lg {
   border-radius: 0.5rem;
-}
-.rounded-md {
-  border-radius: 0.375rem;
 }
 .rounded-xl {
   border-radius: 0.75rem;
@@ -1128,10 +1093,6 @@ video {
 .bg-\[\#eb5757\] {
   --tw-bg-opacity: 1;
   background-color: rgb(235 87 87 / var(--tw-bg-opacity));
-}
-.bg-background {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 2 18 / var(--tw-bg-opacity));
 }
 .bg-transparent {
   background-color: transparent;
@@ -1166,9 +1127,6 @@ video {
 }
 .bg-hero-gradient {
   background-image: radial-gradient(ellipse 50% 80% at 20% 40%,rgba(93,52,221,0.1),transparent), radial-gradient(ellipse 50% 80% at 80% 50%,rgba(120,119,198,0.15),transparent);
-}
-.bg-page-gradient {
-  background-image: radial-gradient(ellipse 80% 50% at 50% -20%,rgba(120,119,198,0.3), transparent);
 }
 .bg-primary-gradient {
   background-image: linear-gradient(92.88deg, rgb(69, 94, 181) 9.16%, rgb(86, 67, 204) 43.89%, rgb(103, 63, 215) 64.72%);
@@ -1245,9 +1203,6 @@ video {
   font-size: 4.4rem;
   line-height: 1.1;
 }
-.text-\[2rem\] {
-  font-size: 2rem;
-}
 .text-lg {
   font-size: 1.8rem;
 }
@@ -1282,7 +1237,7 @@ video {
 }
 .text-primary-text {
   --tw-text-opacity: 1;
-  color: rgb(180 188 208 / var(--tw-text-opacity));
+  color: rgb(75 67 47 / var(--tw-text-opacity));
 }
 .text-white {
   --tw-text-opacity: 1;
@@ -1362,26 +1317,22 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 .text-gradient {
-    background: linear-gradient(to right bottom, rgb(255, 255, 255) 30%, rgba(255, 255, 255, 0.38));
+    background: linear-gradient(to right bottom, rgb(0, 0, 0) 30%, rgba(255, 255, 255, 0.1));
     -webkit-background-clip: text;
             background-clip: text;
     color: transparent;
   }
-.mask-radial-faded {
-    -webkit-mask-image: radial-gradient(circle at center center, black, transparent 80%);
-            mask-image: radial-gradient(circle at center center, black, transparent 80%)
-  }
 .mask-linear-faded {
-    -webkit-mask-image: linear-gradient(black, transparent 70%);
-            mask-image: linear-gradient(black, transparent 70%)
+    -webkit-mask-image: linear-gradient(white, transparent 70%);
+            mask-image: linear-gradient(white, transparent 70%)
   }
 .mask-keyboard {
-    -webkit-mask-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.57) 33.98%, black 100%);
-            mask-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.57) 33.98%, black 100%);
+    -webkit-mask-image: linear-gradient(transparent 0%, rgba(255, 255, 255, 0.57) 33.98%, white 100%);
+            mask-image: linear-gradient(transparent 0%, rgba(255, 255, 255, 0.57) 33.98%, white 100%);
   }
 .mask-shortcutkeys {
-    -webkit-mask-image: linear-gradient(to right, transparent, black 40%, black calc(60%), transparent 100%);
-            mask-image: linear-gradient(to right, transparent, black 40%, black calc(60%), transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent, white 40%, white calc(60%), transparent 100%);
+            mask-image: linear-gradient(to right, transparent, white 40%, white calc(60%), transparent 100%);
   }
 .\[--animation-delay\:200ms\] {
   --animation-delay: 200ms;
@@ -1391,9 +1342,6 @@ video {
 }
 .\[--animation-delay\:600ms\] {
   --animation-delay: 600ms;
-}
-.\[--color\:\#7877C6\] {
-  --color: #7877C6;
 }
 .\[perspective\:2000px\] {
   perspective: 2000px;
@@ -1509,11 +1457,6 @@ video {
   background-image: conic-gradient(from 230.29deg at 51.63% 52.16%, rgb(36, 0, 255) 0deg, rgb(0, 135, 255) 67.5deg, rgb(108, 39, 157) 198.75deg, rgb(24, 38, 163) 251.25deg, rgb(54, 103, 196) 301.88deg, rgb(105, 30, 255) 360deg);
 }
 
-.before\:bg-radial-faded::before {
-  content: var(--tw-content);
-  background-image: radial-gradient(circle at bottom center,var(--color),transparent 70%);
-}
-
 .before\:bg-no-repeat::before {
   content: var(--tw-content);
   background-repeat: no-repeat;
@@ -1535,11 +1478,6 @@ video {
 }
 
 .before\:opacity-40::before {
-  content: var(--tw-content);
-  opacity: 0.4;
-}
-
-.before\:opacity-\[0\.4\]::before {
   content: var(--tw-content);
   opacity: 0.4;
 }
@@ -1617,55 +1555,14 @@ video {
   left: 0;
 }
 
-.after\:-left-1\/2::after {
-  content: var(--tw-content);
-  left: -50%;
-}
-
-.after\:top-1\/2::after {
-  content: var(--tw-content);
-  top: 50%;
-}
-
-.after\:h-\[142\.8\%\]::after {
-  content: var(--tw-content);
-  height: 142.8%;
-}
-
-.after\:w-\[200\%\]::after {
-  content: var(--tw-content);
-  width: 200%;
-}
-
-.after\:rounded-\[50\%\]::after {
-  content: var(--tw-content);
-  border-radius: 50%;
-}
-
 .after\:rounded-\[inherit\]::after {
   content: var(--tw-content);
   border-radius: inherit;
 }
 
-.after\:border-t::after {
-  content: var(--tw-content);
-  border-top-width: 1px;
-}
-
-.after\:border-\[rgba\(120\2c _119\2c _198\2c _0\.4\)\]::after {
-  content: var(--tw-content);
-  border-color: rgba(120, 119, 198, 0.4);
-}
-
 .after\:bg-\[rgba\(255\2c _255\2c _255\2c _0\.15\)\]::after {
   content: var(--tw-content);
   background-color: rgba(255, 255, 255, 0.15);
-}
-
-.after\:bg-background::after {
-  content: var(--tw-content);
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 2 18 / var(--tw-bg-opacity));
 }
 
 .after\:\[mask\:linear-gradient\(black\2c transparent\)\]::after {
@@ -1706,7 +1603,7 @@ video {
 }
 
 .hover\:text-shadow:hover {
-    text-shadow: rgb(0 0 0 / 56%) 0px 3px 12px;
+    text-shadow: rgb(255 255 255 / 56%) 0px 3px 12px;
   }
 
 .group:hover .group-hover\:transform-none {
