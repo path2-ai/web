@@ -6,7 +6,7 @@ import { useInView } from "react-intersection-observer";
 export const HeroImage = () => {
   const { ref, inView } = useInView({ threshold: 0.4, triggerOnce: true });
   return (
-    <div ref={ref} className="mt-[12.8rem] [perspective:2000px]">
+    <div ref={ref} className="mt-40 [perspective:2000px]">
       <div
         className={classNames(
           "relative rounded-lg border border-transparent-white bg-white bg-opacity-[0.01] bg-hero-gradient",

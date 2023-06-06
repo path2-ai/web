@@ -566,11 +566,11 @@ video {
 .mt-2 {
   margin-top: 0.5rem;
 }
+.mt-40 {
+  margin-top: 10rem;
+}
 .mt-6 {
   margin-top: 1.5rem;
-}
-.mt-\[12\.8rem\] {
-  margin-top: 12.8rem;
 }
 .block {
   display: block;
@@ -776,22 +776,11 @@ video {
 .border-t {
   border-top-width: 1px;
 }
-.border-b {
-  border-bottom-width: 1px;
-}
 .border-gray-900\/10 {
   border-color: rgb(17 24 39 / 0.1);
 }
 .border-gray-900\/5 {
   border-color: rgb(17 24 39 / 0.05);
-}
-.border-gray-300 {
-  --tw-border-opacity: 1;
-  border-color: rgb(209 213 219 / var(--tw-border-opacity));
-}
-.border-gray-100 {
-  --tw-border-opacity: 1;
-  border-color: rgb(243 244 246 / var(--tw-border-opacity));
 }
 .bg-gray-50 {
   --tw-bg-opacity: 1;
@@ -805,7 +794,7 @@ video {
   --tw-bg-opacity: 0.01;
 }
 .bg-hero-gradient {
-  background-image: radial-gradient(ellipse 50% 80% at 20% 40%,rgba(93,52,221,0.1),transparent), radial-gradient(ellipse 50% 80% at 80% 50%,rgba(120,119,198,0.15),transparent);
+  background-image: radial-gradient(ellipse 50% 80% at 20% 40%,rgba(34, 197, 94, 0.1),transparent), radial-gradient(ellipse 50% 80% at 80% 50%,rgba(168, 85, 247, 0.15),transparent);
 }
 .p-1 {
   padding: 0.25rem;
@@ -1039,7 +1028,7 @@ video {
 }
 .before\:bg-hero-glow::before {
   content: var(--tw-content);
-  background-image: conic-gradient(from 230.29deg at 51.63% 52.16%, rgb(36, 0, 255) 0deg, rgb(0, 135, 255) 67.5deg, rgb(108, 39, 157) 198.75deg, rgb(24, 38, 163) 251.25deg, rgb(54, 103, 196) 301.88deg, rgb(105, 30, 255) 360deg);
+  background-image: conic-gradient(from 230.29deg at 51.63% 52.16%, rgb(34, 197, 94) 0deg, rgb(20, 184, 166) 67.5deg, rgb(168, 85, 247) 198.75deg, rgb(24, 38, 163) 251.25deg, rgb(54, 103, 196) 301.88deg, rgb(105, 30, 255) 360deg);
 }
 .before\:opacity-0::before {
   content: var(--tw-content);
