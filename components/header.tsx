@@ -47,12 +47,12 @@ export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="fixed w-full isolate z-50 bg-white">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <header className="fixed w-full isolate z-50 bg-white border-b border-gray-100">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between p-3 lg:px-8" aria-label="Global">
         < div className="flex lg:flex-1" >
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Kern AI</span>
-            <img className="h-8 w-auto" src="/kernai.png" alt="" />
+            <img className="h-6 w-auto" src="/kernai.png" alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -139,7 +139,7 @@ export function Header() {
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Kern AI</span>
               <img
-                className="h-8 w-auto"
+                className="h-6 w-auto"
                 src="/kernai.png"
                 alt=""
               />
