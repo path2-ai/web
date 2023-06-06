@@ -1,31 +1,5 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
-    "(app-client)/./components/hero-image.tsx": {
-      "": {
-        "id": "(sc_client)/./components/hero-image.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./components/hero-image.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      },
-      "HeroImage": {
-        "id": "(sc_client)/./components/hero-image.tsx",
-        "name": "HeroImage",
-        "chunks": [
-          "app/page:app/page"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./components/analytics.tsx": {
       "": {
         "id": "(sc_client)/./components/analytics.tsx",
@@ -78,28 +52,28 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
+    "(app-client)/./components/hero-image.tsx": {
       "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "id": "(sc_client)/./components/hero-image.tsx",
         "name": "",
         "chunks": [
-          "app/layout:app/layout"
+          "app/page:app/page"
         ],
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "id": "(sc_client)/./components/hero-image.tsx",
         "name": "*",
         "chunks": [
-          "app/layout:app/layout"
+          "app/page:app/page"
         ],
         "async": false
       },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
+      "HeroImage": {
+        "id": "(sc_client)/./components/hero-image.tsx",
+        "name": "HeroImage",
         "chunks": [
-          "app/layout:app/layout"
+          "app/page:app/page"
         ],
         "async": false
       }
@@ -215,32 +189,6 @@ self.__RSC_MANIFEST={
       "static/css/_app-client_styles_globals_css.css"
     ]
   },
-  "/Users/jhoetter/repos/web/components/hero-image.tsx": {
-    "": {
-      "id": "(app-client)/./components/hero-image.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./components/hero-image.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    },
-    "HeroImage": {
-      "id": "(app-client)/./components/hero-image.tsx",
-      "name": "HeroImage",
-      "chunks": [
-        "app/page:app/page"
-      ],
-      "async": false
-    }
-  },
   "/Users/jhoetter/repos/web/components/analytics.tsx": {
     "": {
       "id": "(app-client)/./components/analytics.tsx",
@@ -293,54 +241,28 @@ self.__RSC_MANIFEST={
       "async": false
     }
   },
-  "/Users/jhoetter/repos/web/node_modules/next/dist/client/link.js": {
+  "/Users/jhoetter/repos/web/components/hero-image.tsx": {
     "": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "id": "(app-client)/./components/hero-image.tsx",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     },
     "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "id": "(app-client)/./components/hero-image.tsx",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
+    "HeroImage": {
+      "id": "(app-client)/./components/hero-image.tsx",
+      "name": "HeroImage",
       "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    }
-  },
-  "/Users/jhoetter/repos/web/node_modules/next/dist/esm/client/link.js": {
-    "": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "*": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     }

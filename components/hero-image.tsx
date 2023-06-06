@@ -15,20 +15,6 @@ export const HeroImage = () => {
           inView && "before:animate-image-glow"
         )}
       >
-        <svg
-          className={classNames(
-            "absolute left-0 top-0 h-full w-full",
-            "[&_path]:stroke-white [&_path]:[strokeOpacity:0.2] [&_path]:[stroke-dasharray:1] [&_path]:[stroke-dashoffset:1]",
-            inView && "[&_path]:animate-sketch-lines"
-          )}
-          width="100%"
-          viewBox="0 0 1499 778"
-          fill="none"
-        >
-          <path pathLength="1" d="M1500 20L220 20"></path>
-          <path pathLength="1" d="M240 777L240 1"></path>
-        </svg>
-
         <img
           className={classNames(
             "relative z-10 transition-opacity delay-[680ms] rounded-lg",

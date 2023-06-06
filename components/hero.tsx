@@ -26,7 +26,7 @@ export const HeroSubtitle = ({ children, className }: HeroElementProps) => {
   return (
     <p
       className={classNames(
-        "mb-12 text-lg text-primary-text md:text-xl",
+        "mb-12 text-lg primary-text md:text-xl",
         className
       )}
     >
